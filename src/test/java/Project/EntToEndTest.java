@@ -51,9 +51,9 @@ public class EntToEndTest {
 		response = GetSingleEmployee(uid);
 		jpath = response.jsonPath();		
 		//Assert.assertEquals(jpath.get("name"), "Smith");		
-		List<String> names = jpath.get("name");
-		System.out.println("The name is: " + names.get(0));
-		Assert.assertEquals(names.get(0), "Smith");
+		List<String> AllEmp = jpath.get("name");
+		System.out.println("The name is: " + AllEmp.get(0));
+		Assert.assertEquals(AllEmp.get(0), "Smith");
 		
 		
 		System.out.println("This is to DELETE employees");
@@ -63,7 +63,13 @@ public class EntToEndTest {
 		System.out.println("This is to Check employees after delete operation");
 		response = GetSingleEmployee(uid);
 		Assert.assertEquals(200, response.getStatusCode());
-
+		
+		System.out.println("This is to Check employee name in All employees");
+		response = GETAllEmployees();
+		jpath = response.jsonPath();
+		List<String> names = jpath.get("name");
+		Assert.assertFalse(names.contains("Smith"));
+		
 	}
 	
 	public Response GETAllEmployees() {

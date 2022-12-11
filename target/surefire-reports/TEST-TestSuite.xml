@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="26.057" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="36.897" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\SONY\AppData\Local\Temp\surefire857758120911878137\surefirebooter3209190067656000458.jar C:\Users\SONY\AppData\Local\Temp\surefire857758120911878137 2022-12-11T18-40-18_549-jvmRun1 surefire397154609375136473tmp surefire_02914677414668408747tmp"/>
+    <property name="sun.java.command" value="C:\Users\SONY\AppData\Local\Temp\surefire6922338536165111868\surefirebooter1321834000652209598.jar C:\Users\SONY\AppData\Local\Temp\surefire6922338536165111868 2022-12-11T21-22-43_888-jvmRun1 surefire53546784284458437tmp surefire_01123204052499485384tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\SONY\eclipse-workspace\Phase-III_RestAssured_Project\target\test-classes;C:\Users\SONY\eclipse-workspace\Phase-III_RestAssured_Project\target\classes;C:\Users\SONY\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\SONY\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\SONY\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\SONY\.m2\repository\io\rest-assured\rest-assured\4.3.1\rest-assured-4.3.1.jar;C:\Users\SONY\.m2\repository\org\codehaus\groovy\groovy\3.0.3\groovy-3.0.3.jar;C:\Users\SONY\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.3\groovy-xml-3.0.3.jar;C:\Users\SONY\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\SONY\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\SONY\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\SONY\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\SONY\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\SONY\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\SONY\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\SONY\.m2\repository\io\rest-assured\xml-path\4.3.1\xml-path-4.3.1.jar;C:\Users\SONY\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\SONY\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\SONY\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\SONY\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\SONY\.m2\repository\io\rest-assured\json-path\4.3.1\json-path-4.3.1.jar;C:\Users\SONY\.m2\repository\org\codehaus\groovy\groovy-json\3.0.3\groovy-json-3.0.3.jar;C:\Users\SONY\.m2\repository\io\rest-assured\rest-assured-common\4.3.1\rest-assured-common-4.3.1.jar;C:\Users\SONY\.m2\repository\io\rest-assured\json-schema-validator\4.3.1\json-schema-validator-4.3.1.jar;C:\Users\SONY\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.10\json-schema-validator-2.2.10.jar;C:\Users\SONY\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.10\json-schema-core-1.2.10.jar;C:\Users\SONY\.m2\repository\com\github\java-json-tools\jackson-coreutils\1.9\jackson-coreutils-1.9.jar;C:\Users\SONY\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar;C:\Users\SONY\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar;C:\Users\SONY\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar;C:\Users\SONY\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;C:\Users\SONY\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\SONY\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\SONY\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\SONY\.m2\repository\org\mozilla\rhino\1.7.7.1\rhino-1.7.7.1.jar;C:\Users\SONY\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\SONY\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\SONY\.m2\repository\joda-time\joda-time\2.9.7\joda-time-2.9.7.jar;C:\Users\SONY\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.0.0\libphonenumber-8.0.0.jar;C:\Users\SONY\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\SONY\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;C:\Users\SONY\.m2\repository\org\json\json\20210307\json-20210307.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\SONY"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\SONY\AppData\Local\Temp\surefire857758120911878137\surefirebooter3209190067656000458.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\SONY\AppData\Local\Temp\surefire6922338536165111868\surefirebooter1321834000652209598.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,7 +60,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Test" classname="Project.EntToEndTest" time="23.555">
+  <testcase name="Test" classname="Project.EntToEndTest" time="30.343">
     <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
 This is to GET all employees
 [
@@ -120,11 +120,6 @@ This is to GET all employees
     "id": 18
   },
   {
-    "name": "Smith",
-    "salary": 9000,
-    "id": 19
-  },
-  {
     "name": "Sam",
     "salary": 9000,
     "id": 20
@@ -163,6 +158,69 @@ This is to DELETE employees
 {}
 This is to Check employees after delete operation
 []
+This is to Check employee name in All employees
+[
+  {
+    "id": 1,
+    "name": "Pankaj",
+    "salary": "10000"
+  },
+  {
+    "name": "David",
+    "salary": "5000",
+    "id": 2
+  },
+  {
+    "name": "Rohan",
+    "salary": "9000",
+    "id": 3
+  },
+  {
+    "name": "Savita",
+    "salary": 6800,
+    "id": 8
+  },
+  {
+    "name": "Kavita",
+    "salary": 7900,
+    "id": 10
+  },
+  {
+    "name": "Bryant",
+    "salary": 43000,
+    "id": 11
+  },
+  {
+    "name": "Savita",
+    "salary": 6800,
+    "id": 12
+  },
+  {
+    "name": "Kavita",
+    "salary": 7900,
+    "id": 13
+  },
+  {
+    "name": "Anita",
+    "salary": 8400,
+    "id": 14
+  },
+  {
+    "name": "Rob",
+    "salary": 6600,
+    "id": 15
+  },
+  {
+    "name": "Sakshi",
+    "salary": 55000,
+    "id": 18
+  },
+  {
+    "name": "Sam",
+    "salary": 9000,
+    "id": 20
+  }
+]
 ]]></system-out>
   </testcase>
 </testsuite>
